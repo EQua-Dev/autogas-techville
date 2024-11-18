@@ -72,7 +72,7 @@ export function Navbar() {
           <Link rel='stylesheet' href='/about' className='mx-2'>
             About
           </Link>
-          <Link rel='stylesheet' href='/blogs' className='mx-2'>
+          {/* <Link rel='stylesheet' href='/blogs' className='mx-2'>
             Services
           </Link>
           <Link rel='stylesheet' href='/courses' className='mx-2'>
@@ -80,7 +80,7 @@ export function Navbar() {
           </Link>
           <Link rel='stylesheet' href='/testimonials' className='mx-2'>
             Contact Us
-          </Link>
+          </Link> */}
           {/* Vertical divider for large screens */}
           <span className='hidden md:inline-block mx-2 border-l border-gray-400 h-6'></span>
 

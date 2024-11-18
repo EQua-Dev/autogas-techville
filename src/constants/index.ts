@@ -8,6 +8,7 @@ import {
   banner4Img,
   blackImg,
   blueImg,
+  convertedCarmv,
   gasPumpImg,
   highlightFirstmv,
   highlightFourthmv,
@@ -59,7 +60,7 @@ export const hightlightsSlides = [
     headerText: "Upcoming Conference.",
     smallerText: "What will yours do?",
     mediaType: "video",
-    media: highlightFirstmv,
+    media: convertedCarmv,
     contentType: "form",
     mediaDuration: 5,
     buttonText: "Register Now"
