@@ -45,6 +45,11 @@ export const blackImg = "/assets/images/black.jpg";
 export const explore1Img = "/assets/images/explore1.jpg";
 export const explore2Img = "/assets/images/explore2.jpg";
 export const chipImg = "/assets/images/chip.jpeg";
+export const mdImg = "/assets/images/mdImg.jpeg";
+export const chairmanImg = "/assets/images/chairmanImg.jpeg";
+export const cfoImg = "/assets/images/cfoImg.jpeg";
+export const ctoImg = "/assets/images/ctoImg.jpeg";
+export const cooImg = "/assets/images/cooImg.jpeg";
 export const frameImg = "/assets/images/frame.png";
 
 // export const heroVideo = hmv;

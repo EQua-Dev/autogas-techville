@@ -7,6 +7,9 @@ import 'swiper/swiper-bundle.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Footer from "@/components/Footer";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { Providers } from "./providers";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -31,12 +34,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      
       <body
         // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Providers>
         <Navbar />
+        <ToastContainer />
         {children}
         <Footer />
+        </Providers>
       </body>
     </html>
   );

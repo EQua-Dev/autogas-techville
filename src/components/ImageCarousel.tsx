@@ -63,7 +63,7 @@ const ImageCarousel: React.FC = () => {
                 </div>
 
                 {/* Header Text */}
-                <div className="absolute inset-0 flex flex-col items-center justify-center z-10 text-center text-white">
+                {/* <div className="absolute inset-0 flex flex-col items-center justify-center z-10 text-center text-white">
                   <h2 className="md:text-5xl text-3xl font-medium">
                     {slide.headerText}
                   </h2>
@@ -80,7 +80,7 @@ const ImageCarousel: React.FC = () => {
                       </button>
                     </div>
                   )}
-                </div>
+                </div> */}
               </div>
             </div>
           ))}

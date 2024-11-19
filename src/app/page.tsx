@@ -7,10 +7,13 @@ import { Navbar } from "@/components/NavBar";
 import OurServices from "@/components/OurServices";
 import Testimonials from "@/components/Testimonials";
 import WhyChooseUs from "@/components/WhyChooseUs";
+import { Providers } from "./providers";
+
 
 export default function Home() {
   return (
-  <main className="bg-bgcolor">
+    
+      <main className="bg-bgcolor">
     
     <Hero />
     <OurServices />
@@ -20,5 +23,6 @@ export default function Home() {
     <Testimonials />
     <FAQs />
   </main>
+  
   );
 }
